@@ -1,0 +1,55 @@
+@mixin mobile {
+    @media only screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media only screen and (max-width: 600px) {
+        @content;
+    }
+}
+
+.root {
+    min-width: calc(33.3% - 12px);
+    max-width: calc(33.3% - 12px);
+    box-sizing: border-box;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 12px;
+    margin: 6px;
+    display: flex;
+    flex-wrap: wrap;
+
+    @include tablet {
+        min-width: calc(50% - 12px);
+        max-width: calc(50% - 12px);
+    }
+
+    @include mobile {
+        min-width: calc(100% - 12px);
+        max-width: calc(100% - 12px);
+    }
+}
+
+.filename {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.size {
+    white-space: nowrap;
+}
+
+.button {
+    margin-left: auto;
+    background-color: transparent;
+    border: 1px solid cornflowerblue;
+    border-radius: 4px;
+    padding: 4px 12px;
+    cursor: pointer;
+}

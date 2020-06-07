@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders error state 1`] = `
+<div
+  data-error={true}
+>
+  Unexpected Error. 
+  baz
+</div>
+`;
+
+exports[`App renders error state 2`] = `
+<FileList
+  deleteFile={[Function]}
+  files={Array []}
+/>
+`;
+
+exports[`App renders header 1`] = `
+<Header
+  addFile={[Function]}
+  search="foo"
+  setSearch={[Function]}
+/>
+`;
+
+exports[`App renders loading state 1`] = `
+<div
+  data-loading={true}
+>
+  Loading...
+</div>
+`;

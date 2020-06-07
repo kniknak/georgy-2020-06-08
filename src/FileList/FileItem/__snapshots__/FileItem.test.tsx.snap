@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileList FileItem renders 1`] = `
+<li>
+  <div>
+    foo
+  </div>
+  <div>
+    42b
+  </div>
+  <button
+    onClick={[Function]}
+  >
+    Delete
+  </button>
+</li>
+`;

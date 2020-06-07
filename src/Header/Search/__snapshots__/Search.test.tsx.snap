@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Search renders 1`] = `
+<input
+  onChange={[Function]}
+  placeholder="Search documents..."
+  type="text"
+  value="foo"
+/>
+`;

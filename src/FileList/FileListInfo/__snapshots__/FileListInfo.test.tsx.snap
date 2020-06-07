@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileList FileListInfo renders 1`] = `
+<div>
+  <div>
+    1
+     Documents
+  </div>
+  <div>
+    Total size: 
+    42b
+  </div>
+</div>
+`;

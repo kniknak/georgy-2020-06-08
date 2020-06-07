@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileList FileList renders 1`] = `
+<div>
+  <FileListInfo
+    files={
+      Array [
+        Object {
+          "_id": "bar",
+          "createdAt": 200,
+          "originalName": "foo",
+          "size": 42,
+        },
+      ]
+    }
+  />
+  <ul>
+    <FileItem
+      deleteFile={[Function]}
+      file={
+        Object {
+          "_id": "bar",
+          "createdAt": 200,
+          "originalName": "foo",
+          "size": 42,
+        }
+      }
+      key="bar"
+    />
+  </ul>
+</div>
+`;

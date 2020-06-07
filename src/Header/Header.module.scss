@@ -1,0 +1,38 @@
+@mixin mobile {
+    @media only screen and (max-width: 375px) {
+        @content;
+    }
+}
+
+.root {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 64px;
+
+    @include mobile {
+        flex-wrap: wrap;
+    }
+}
+
+.search {
+    max-width: 500px;
+    width: 500px;
+    margin-right: 12px;
+
+    @include mobile {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+}
+
+.upload {
+    max-width: 200px;
+    width: 200px;
+
+    @include mobile {
+        max-width: 100%;
+        width: 100%;
+    }
+}

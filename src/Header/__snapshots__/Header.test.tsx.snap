@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders 1`] = `
+<div>
+  <div>
+    <Search
+      search="foo"
+      setSearch={[Function]}
+    />
+  </div>
+  <div>
+    <FileUpload
+      addFile={[Function]}
+    />
+  </div>
+</div>
+`;
